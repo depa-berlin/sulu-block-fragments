@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Depa\SuluBlockFragmentsBundle\DependencyInjection;
+namespace Depa\SuluBlockHelperBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
 
-class SuluBlockFragmentsExtension extends Extension implements PrependExtensionInterface
+class SuluBlockHelperExtension extends Extension implements PrependExtensionInterface
 {
     public function load(array $configs, ContainerBuilder $container): void
     {

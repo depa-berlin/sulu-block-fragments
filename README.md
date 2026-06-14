@@ -1,4 +1,4 @@
-# sulu-block-fragments
+# sulu-block-helper
 
 Shared XML fragments and Twig partials for Sulu CMS block bundles.
 
@@ -32,13 +32,13 @@ Reusable XML include files for Sulu block templates:
 ## Installation
 
 ```bash
-composer require depa-berlin/sulu-block-fragments
+composer require depa-berlin/sulu-block-helper
 ```
 
 Register the bundle in `config/bundles.php`:
 
 ```php
-Depa\SuluBlockFragmentsBundle\SuluBlockFragmentsBundle::class => ['all' => true],
+Depa\SuluBlockHelperBundle\SuluBlockHelperBundle::class => ['all' => true],
 ```
 
 ## License

@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Depa\SuluBlockFragmentsBundle\Tests\Unit\DependencyInjection;
+namespace Depa\SuluBlockHelperBundle\Tests\Unit\DependencyInjection;
 
-use Depa\SuluBlockFragmentsBundle\DependencyInjection\SuluBlockFragmentsExtension;
+use Depa\SuluBlockHelperBundle\DependencyInjection\SuluBlockHelperExtension;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 
-class SuluBlockFragmentsExtensionTest extends TestCase
+class SuluBlockHelperExtensionTest extends TestCase
 {
     private ContainerBuilder $container;
-    private SuluBlockFragmentsExtension $extension;
+    private SuluBlockHelperExtension $extension;
 
     protected function setUp(): void
     {
         $this->container = new ContainerBuilder();
-        $this->extension = new SuluBlockFragmentsExtension();
+        $this->extension = new SuluBlockHelperExtension();
     }
 
     public function testLoadDoesNotThrow(): void
