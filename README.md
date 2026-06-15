@@ -1,10 +1,17 @@
 # sulu-block-helper
 
-Shared XML fragments and Twig partials for Sulu CMS block bundles.
+Shared base classes, XML fragments and Twig partials for Sulu CMS block bundles.
 
-This bundle provides the common building blocks that all other `depa-berlin/sulu-block-*` bundles depend on.
+This bundle provides the common foundation that all other `depa/sulu-block-*` bundles depend on.
 
 ## Contents
+
+### Base Classes (`src/DependencyInjection/`)
+
+| Class | Purpose |
+|---|---|
+| `AbstractBlockExtension` | Base Extension for all block bundles — registers blocks dir, Twig paths and metadata parameter |
+| `BlockMetadataLoaderTrait` | Reads block XML files and extracts block/child metadata |
 
 ### XML Fragments (`Resources/config/_fragments/`)
 
@@ -32,7 +39,7 @@ Reusable XML include files for Sulu block templates:
 ## Installation
 
 ```bash
-composer require depa-berlin/sulu-block-helper
+composer require depa/sulu-block-helper
 ```
 
 Register the bundle in `config/bundles.php`:
