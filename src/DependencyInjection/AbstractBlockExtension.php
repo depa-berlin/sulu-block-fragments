@@ -61,6 +61,7 @@ abstract class AbstractBlockExtension extends Extension implements PrependExtens
     {
         $reflection = new \ReflectionClass($this);
         $fileName = $reflection->getFileName();
+        \assert(\is_string($fileName));
 
         return dirname($fileName);
     }
