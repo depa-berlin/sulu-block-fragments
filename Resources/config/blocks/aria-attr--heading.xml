@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<template xmlns="http://schemas.sulu.io/template/template"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd">
+    <key>aria-attr--heading</key>
+    <meta>
+        <title lang="en">ARIA-block: heading</title>
+        <title lang="de">ARIA-Block: heading</title>
+
+    </meta>
+
+    <properties>
+
+        <property name="aria_level" type="single_select">
+            <!-- @see https://docs.sulu.io/en/2.2/book/extend-admin.html#selection-field-type -->
+            <meta>
+                <title lang="en">ARIA-attribute: aria-level</title>
+                <title lang="de">ARIA-Attribut: aria-level</title>
+            </meta>
+            <params>
+                <param name="default_value" value="2"/>
+
+                <param name="values" type="collection">
+                    <param name="1">
+                        <meta>
+                            <title lang="en">aria-level: 1</title>
+                            <title lang="de">aria-level: 1</title>
+                        </meta>
+                    </param>
+                    <param name="2">
+                        <meta>
+                            <title lang="en">aria-level: 2</title>
+                            <title lang="de">aria-level: 2</title>
+                        </meta>
+                    </param>
+                    <param name="3">
+                        <meta>
+                            <title lang="en">aria-level: 3</title>
+                            <title lang="de">aria-level: 3</title>
+                        </meta>
+                    </param>
+                    <param name="4">
+                        <meta>
+                            <title lang="en">aria-level: 4</title>
+                            <title lang="de">aria-level: 4</title>
+                        </meta>
+                    </param>
+                </param>
+            </params>
+        </property>
+
+    </properties>
+</template>

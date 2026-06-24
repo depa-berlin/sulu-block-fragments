@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<template xmlns="http://schemas.sulu.io/template/template"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd">
+    <key>aria-attr--aria-label</key>
+    <meta>
+        <title lang="en">ARIA-attribute: aria-label</title>
+        <title lang="de">ARIA-Attribut: aria-label</title>
+    </meta>
+    <properties>
+        <property name="aria_label" type="text_line" mandatory="true">
+            <!-- @see https://docs.sulu.io/en/2.2/book/extend-admin.html#selection-field-type -->
+            <meta>
+                <title lang="en">ARIA-attribute: aria-label</title>
+                <title lang="de">ARIA-Attribut: aria-label</title>
+                <info_text lang="en">Gives an element an invisible name that is only read aloud by screen readers, so that people using assistive technologies can better understand the purpose of the element..</info_text>
+                <info_text lang="de">Gibt einem Element einen unsichtbaren Namen, der nur von Screenreadern vorgelesen wird, damit Menschen mit assistiven Technologien den Zweck des Elements besser verstehen..</info_text>
+            </meta>
+            <params>
+                <param name="min_length" value="5" />
+            </params>
+        </property>
+
+    </properties>
+</template>

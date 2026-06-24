@@ -29,7 +29,7 @@ Reusable XML include files for Sulu block templates:
 |---|---|
 | `aria_attributes.html.twig` | Renders ARIA attributes from block config |
 | `aria/aria-attr--aria-label.html.twig` | `aria-label` attribute |
-| `aria/aria-block--heading.html.twig` | `role="heading" aria-level="…"` |
+| `aria/aria-attr--heading.html.twig` | `role="heading" aria-level="…"` |
 
 ## Requirements
 
